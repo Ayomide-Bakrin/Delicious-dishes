@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 12px;
+}
+
+.dashboard {
+  padding: 1rem 1rem ;
+  border-color: #e1dada;
+  border-style: hidden solid hidden hidden;
+  border-width: 1px;
+}
+
+.main-design-logo {
+  width: 100%;
+}
+
+.main-header {
+  padding-top: 10px;
+}
+
+.home {
+    padding-top: 3rem;
+}
+
+.pj, .team {
+    padding: 2rem 0 ;
+}
+
+.pj-link {
+    padding-right: 3rem;
+}
+
+.tsk-link {
+    padding-right: 3.7rem;
+}
+
+.dashboard-link {
+    padding-left: 8px;
+    font-size: 14px;
+}
+  
+.info-link {
+    position: absolute;
+    padding-left: 10px;
+}
+  
+.logout-box {
+    padding: 1.5rem 0 0 0;
+}
+
+.company-logo, .intro-section, .main-efficiency-box, .finished-box, .app-design-container, .efficiency-box, .efficiency-box, .tracked-box, .performance-date, .intro-field-one, .intro-field-two, .clt-main, .product-review, .ux-research, .kristin-field, .last-box {
+  display: flex;
+}
+
+.lower-dash {
+  margin-top: 10.5rem;
+}
+
+.upg-field {
+  border-radius: 20px;
+  padding: 1rem 0 10px 0;
+}
+
+.upgrade-field {
+  background-color: #eef3f3;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.sub-upg-text {
+  color: #808080;
+  font-size: 12px;
+  width: 7rem;
+  padding: 8px 0;
+}
+
+.upg-btn {
+  background-color: rgb(160, 222, 247);
+  color: #2e2e37;
+  border: none;
+  padding: 8px 1rem;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.sub-header {
+    color: #808080;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.upgrade-text, .third-sub-header, .bold-header, .finished-text, .tracked-text, .efficiency-text, .current-task-header, .main-header, .task-review, .task-status, .dashboard-link, .task-report, .third-main-content {
+  color: #2e2e37;
+}
+
+.intro-section {
+    padding-top: 1.5rem;
+}
+
+.main-box-two {
+    margin: 0 0 0 1.5rem;
+    padding-right: 1.5rem;
+    border-color: #e1dada;
+    border-style: hidden solid hidden hidden;
+    border-width: 1px;
+}
+
+.mag-header {
+    margin-right: 10rem;
+}
+
+.person-dts {
+    padding: 0 10px 0 0;
+    font-size: 10px;
+}
+
+.time {
+  display: flex;
+  padding: 1rem 0 0 11rem;
+}
+
+.upsidedown-icon, .tracked-icon {
+  width: 2rem;
+}
+
+.blue-icon {
+  width: 1rem;
+}
+
+.main-finished-box {
+  display: flex;
+  padding-right: 1.5rem;
+}
+
+.main-tracked-box {
+    display: flex;
+    border-color: #e1dada;
+    border-style: hidden solid hidden solid;
+    border-width: 1px;
+    padding: 0 1.4rem 0 1.5rem;
+}
+
+.main-efficiency-box {
+    margin: 0 1rem 0 1.5rem;
+}
+
+.track-box, .eff-box, .fin-box {
+    padding-left: 14px;
+}
+
+.thumb-up-icon, .tracked-clock, .graph-up-icon {
+    background-color: #e7e5e5;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.eight-task {
+    color: #068d06;
+    padding-top: 10px;
+}
+
+.validation, .duration {
+    padding-top: 8px;
+}
+
+.limit-point {
+    color: #ff0000;
+    padding-top: 10px;
+}
+
+.valid {
+    padding-top: 8px;
+}
+
+.percentage {
+    color: #4945be;
+    padding: 8px 0 0 4px;
+}
+
+.first-sub-section {
+  display: flex;
+  flex-direction: row;
+  border-color: #e1d9d9;
+  border-style: solid hidden solid hidden;
+  border-width: 1px;
+  padding: 1.2rem 0 1rem 0 ;
+  margin: 2rem 0;
+}
+
+.third-sub-header {
+  padding-right: 15rem;
+}
+
+.per-date {
+    margin-left: 16.5rem;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.main-img {
+  position: relative;
+}
+
+.main-img-two {
+  position: absolute;
+  right: 40rem;
+  padding-top: 3rem;
+}
+
+.task-field {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.task-duration {
+    padding: 4px 19rem 0 1rem;
+    margin-left: 1rem;
+    font-size: 10px;
+    border-color: #edebeb;
+    border-style: hidden hidden hidden solid;
+    border-width: 1px;
+}
+
+.week-btn {
+    padding: 6px 1rem;
+    margin-left: 8.5rem;
+    font-size: 12px;
+    border: none;
+    border-radius: 20px;
+}
+
+.current-field {
+    padding: 1rem 0 1rem 0;
+}
+
+.orange-dot {
+  width: 8px;
+}
+
+.cyan {
+    padding-top: 3.1rem;
+    padding-bottom: 3.3rem;
+}
+
+.cyan-dot {
+    width: 5px;
+}
+
+.pdt-review-img {
+    width: 2.5rem;
+}
+
+.ux-search-icon {
+   width: 2.5rem;
+}
+
+.app-design-icon {
+    width: 2rem;
+    background-color: rgb(247, 242, 242);
+    border-radius: 20px;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+.search-box {
+    padding: 8px 0;
+}
+
+.clock, .ellipsis, .color-icon, .search {
+    display: flex;
+    flex-direction: column;
+}
+
+.rvw-task {
+    padding: 12px 5rem 0 1rem;
+}
+
+.review-two {
+    padding: 2.5rem 0;
+}
+
+.task-report {
+    padding: 10px 2rem 0 0;
+}
+
+.task-status-two {
+    padding: 2.6rem 0;
+}
+
+.middle-clock, .eight-h {
+    padding: 2.8rem 0;
+}
+
+.color-icon {
+    padding: 18px 0 0 4rem;
+}
+
+.clock {
+    padding: 10px 0 0 3rem;
+}
+
+.tsk-duration {
+    padding: 8px 0 0 10px;
+}
+
+.ellipsis {
+    padding: 10px 0 0 4rem;
+}
+
+.ell-h {
+    padding: 2.7rem 0;
+}
+
+.third-main-img {
+  width: 3rem;
+  border-radius: 2rem;
+}
+
+.third-main-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.third-main-content {
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+.box-tag {
+    color: #808080;
+    font-size: 14px;
+    padding: 8px 0 1rem 0;
+}
+
+.third-main-box {
+  background-color: #d4cccc;
+  border-radius: 10px;
+  margin: 12px 12px 10px 12px;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-main-img {
+    border: 2px solid #fff;
+    position: relative;
+}
+
+.orange-dot-two {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #ffa500;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    position: absolute;
+    top: 4.2rem;
+    right: 8.5rem;
+}
+
+.phone-icon, .video-icon {
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.video-icon {
+    margin: 0 1rem;
+}
+
+.elh {
+    background-color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.main-intro-container {
+    margin-left: 1.5rem;
+}
+
+.floyd-miles-img, .hawkin-img, .kristin-img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+
+.to-do {
+    color: #a4a3a3;
+    font-size: 12px;
+    padding: 2px 0 12px 0;
+}
+
+.thumb-up {
+    width: 2rem;
+    background-color: #c3daed;
+    padding: 6px 8px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    position: absolute;
+    right: 12px;
+    bottom: 11rem;
+}
+
+.stark {
+  color: #70b6d2;
+}
+
+.msg-box {
+    background-color: #b6dae9;
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    font-size: 15px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+}
+
+.last-time {
+    font-size: 12px;
+    color: #808080;
+    padding-left: 8rem;
+}
+
+.last-time-two {
+    padding-left: 7.2rem;
+    font-size: 12px;
+    color: #808080;
+}
+
+.last-time-three {
+    font-size: 12px;
+    color: #808080;
+    padding-left: 6.5rem;
+}
+
+.figma-icon-two {
+    width: 1.5rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.figma-field-two {
+    display: flex;
+    background-color: #b6dae9;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    width: 15rem;
+}
+
+.download-icon {
+    width: 3rem;
+    margin-left: 3rem;
+}
+
+.megabyte {
+    font-size: 14px;
+    color: #979595;
+}
+
+.home-page {
+    padding-left: 12px;
+}
+
+.last-box {
+    margin-top: 2rem;
+}
+
+#fname {
+    border:  none;
+    font-size: 1rem;
+    padding: 0 0 5px 5px;
+    background-color: #f1f1f1;
+}
+
+.pin-icon {
+    width: 14px;
+    height: 15px;
+}
+
+.emoji-icon {
+    width: 1.5rem;
+}
+
+.microphone-icon {
+    width: 2.5rem;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: 8rem 0 0 1rem;
+    padding: 10px 0 10px 1rem;
+    width: 90%;
+}
+
+
+

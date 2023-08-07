@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+.page-logo {
+    width: 20%;
+}
+
+.nav_links > a {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.nav_links {
+    padding-top: 1.5rem;
+}
+
+.subscribe-btn {
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px 1rem;
+    color: white;
+    background-color: rgb(15, 15, 141);
+}
+
+.main-header {
+    display: flex;
+    padding: 0 4rem;
+    justify-content: space-around;
+}
+
+.intro-field {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('images/main-img1.jpg');
+    background-image: linear-gradient(to top, rgb(232, 96, 47), rgb(71, 71, 178))  url(./images/main-img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
+}
+
+.intro-field-two {
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    margin: 0 24rem;
+}
+
+.intro-field-three {
+  border-color: rgb(71, 71, 178);
+  border-style: solid solid solid solid;
+  border-width: 2px;
+  border-radius: 10px;
+  margin: 8px;
+  padding: 3rem 0 2rem 0;
+}
+
+.main_heading, .sub_heading, .recipe-header, .recipe-heading, .our-text, .subscription-text {
+    color: rgb(232, 96, 47);
+}
+
+.sub_heading, .recipe-header {
+    padding-left: 5px;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.text {
+    color: grey;
+    font-size: 12px;
+    padding: 14px;
+}
+
+.text-two, .text-six, .text-five {
+    padding-left: 2rem;
+}
+
+.our-text {
+    padding-right: 5px;
+}
+
+.lorem, .recipe-header-container, .fajita, .crispy, .air-fryer {
+    display: flex;
+    justify-content: center;
+}
+
+.lorem-text {
+    color: grey;
+    font-size: 14px;
+    width: 22rem;
+    padding: 1rem 0 1.5rem 1rem;
+}
+
+.lorem-text-two {
+    color: grey;
+    font-size: 14px;
+    width: 20rem;
+    text-align: center;
+}
+
+.explore-btn, .btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(232, 96, 47);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 1.5rem;
+}
+
+.leaf-one {
+    width: 4rem;
+    position: absolute;
+    top: 10rem;
+    left: 22rem;
+}
+
+.leaf-two {
+    width: 4rem;
+    position: absolute;
+    top: 7rem;
+    right: 25rem;
+}
+
+.leaf-three {
+    position: absolute;
+    width: 3rem;
+    right: 23rem;
+    top: 25rem;
+}
+
+.appetizer-img, .bread-img, .breakfast-img, .pizza-img, .dessert-img, .chicken-soup-img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.list-field {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+
+.trendy-foods {
+    display: flex;
+    padding: 0 6rem;
+}
+
+.trendy-one, .trendy-three {
+    width: 22rem;
+    background-image: linear-gradient(#ffffff, #e6e4e4);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.fryer-field, .fajita-field, .crispy-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fryer-field {
+    padding: 0 1rem;
+}
+
+.trendy-two {
+    width: 23.5rem;
+    padding: 1rem 1rem 0 1rem;
+    background-image: linear-gradient(#ffffff, #e6e4e4);
+    border-radius: 10px;
+}
+
+.fajita, .crispy, .air-fryer, .cookie {
+    padding: 1rem 0 10px 0;
+}
+
+.recipe-text {
+    color: #000000;
+    font-weight: 600;
+}
+
+.recipe-header-container {
+    padding: 5rem 0 2rem 0;
+}
+
+.calender-field, .our-header, .cookie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-left, .arrow-left-two {
+    width: 5rem;
+}
+
+.recipe-field {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 6rem 3rem 6rem;
+}
+
+.view-btn {
+    font-size: 12px;
+    color: #ffffff;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 10px;
+    background-color: #0f0f8d;
+}
+
+.recipe-img {
+    display: flex;
+    flex-direction: row;
+    padding: 0 6rem;
+}
+
+.recipe-img-two {
+    padding-left: 3rem;
+}
+
+.recipe-one {
+    width: 35rem;
+    border-radius: 15px;
+}
+
+.recipe-two, .recipe-three, .recipe-four {
+    width: 13rem;
+    border-radius: 20px;
+}
+
+.recipe-two-field, .recipe-three-field, .recipe-four-field, .gallery-field, .divided-field, .div-field {
+    display: flex;
+}
+
+.recipe-three-field {
+    padding: 1.5rem 0;
+}
+
+.lorem-text-three {
+    font-size: 12px;
+    width: 22rem;
+    color: #808080;
+    line-height: 1.2rem;
+    padding: 8px 0;
+}
+
+.date, .lorem-three, .date-one {
+    font-size: 14px;
+    color: #808080;
+}
+
+.date-one {
+    padding: 1rem 0 8px 0;
+}
+
+.recipe-btn {
+    font-size: 10px;
+    background-color: #c2dfa5;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 8px;
+    margin: 8px 0;
+}
+
+.fld {
+    line-height: 1.2rem;
+    padding: 5px 0 0 1rem;
+}
+
+.gallery-field {
+    padding: 0 6rem;
+}
+
+.img-one, .img-two, .img-three {
+    width: 21.5rem;
+    background-image: linear-gradient(#ffffff, #f8e3e3);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.img-two-field {
+    margin: 0 1rem;
+}
+
+.our-header {
+    padding: 4rem 0 2rem 0;
+}
+
+.no-btn {
+    background-color: #3a3aa1;
+    color: #ffffff;
+    font-size: 12px;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.fifty-btn {
+    left: 18rem;
+    margin-top: 2rem;
+}
+
+.twelve-btn {
+    left: 42rem;
+    margin-top: 2rem;
+}
+
+.twenty-btn {
+    right: 13rem;
+    margin-top: 2.5rem;
+}
+
+.div-field {
+    padding-top: 1.5rem;
+}
+
+.white-tick {
+    width: 12px;
+}
+
+.divided-field {
+    padding: 5rem 6rem 2rem 6rem;
+    margin: 4rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fdf7f7;
+}
+
+.veggies {
+    width: 10rem;
+    padding-top: 5rem;
+}
+
+.green-onion {
+  width: 5rem;
+  padding-top: 5rem;
+}
+
+.page-logo-two {
+    width: 5rem;
+}
+
+.subscription-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 6rem;
+}
+
+.lorem-text-four {
+    width: 32rem;
+    color: #808080;
+    font-size: 14px;
+    line-height: 1.2rem;
+    padding: 1.5rem 0;
+}
+
+.subs {
+    color: #808080;
+    font-size: 14px;
+}
+
+.subscribe-button {
+    background-color: #e8602f;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    padding: 5px 14px;
+    border-radius: 10px;
+}
+
+#Email {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+.page-footer {
+    background-color: rgb(55, 86, 143);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.lorem-ipsum, .footer-navlinks > a, .copyright, .page-link > a {
+    color: #cedced;
+}
+
+.footer-navlinks > a {
+   padding: 0 1rem;
+   font-size: 14px;
+}
+
+.footer-navlinks {
+    border-color: #cedced;
+    border-style: solid hidden solid hidden;
+    border-width: 1px;
+    padding: 8px 17rem;
+}
+
+.lorem-ipsum {
+    width: 20rem;
+}
+
+.page-last-links {
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+.page-social-icons {
+    padding: 1.5rem;
+}
+
+.facebook-icon {
+    border-radius: 50%;
+    width: 2%;
+}
+
+.twitter-icon, .linkedin-icon, .instagram-icon {
+    width: 2%;
+}
+
+.copyright {
+    padding-right: 20rem;
+}
+
+.page-link {
+    padding-left: 20rem;
+}
+
+
